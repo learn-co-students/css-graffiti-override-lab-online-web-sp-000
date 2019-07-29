@@ -1,31 +1,21 @@
-.parent div{
+/* write your override styles here */
+
+#wall .tag-1 {
   display: none;
 }
 
-#wall div {
+div#wall #tag-2 {
   display: none;
-}
-
-div#wall #tag-2{
-  display:none;
 }
 
 div#wall #tag-3.slick.wicked {
   display: none;
 }
 
-div#wall>div.parent>div#tag-4 {
+div .parent {
   display: none;
 }
 
-div#wall>div.parent>div#tag-5.slick {
-  display: none;
-}
-
-div#wall>div.parent>div#tag-6 {
-  display: none;
-}
-
-div#wall>div.parent>div#tag-7.slick {
+div #wall #tag-3  {
   display: none;
 }
