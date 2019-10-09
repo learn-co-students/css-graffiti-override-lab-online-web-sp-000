@@ -1,1 +1,16 @@
 /* write your override styles here */
+#wall .tag-1 {
+  display: none;
+}
+
+body #wall #tag-2 { /*gets rid of tag 2, don't know what body is*/
+  display: none;
+}
+
+#wall #tag-3.slick.wicked { /* gets rid of tag 3*/
+  display: none;
+}
+
+.parent { /*deletes most things on here like 4, 5, 6, 7*/
+  display: none;
+}
