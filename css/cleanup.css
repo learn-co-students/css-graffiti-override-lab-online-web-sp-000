@@ -1,1 +1,31 @@
-/* write your override styles here */
+/*write selectors that have more specificity (authority) than those that are showing the graffiti tags  write your override styles here 
+To remove the tags, use the CSS declaration display:none;. It will change the elements' previous display property value from display: block to
+ display: none, which will hide that graffiti.*/
+ 
+#wall .tag-1 { 
+    display: none; 
+  }
+  
+  #wall div#tag-2 {
+    display: none;
+  }
+  
+  div#wall #tag-3.slick.wicked { 
+    display: none;
+  }
+  
+  #wall .parent #tag-4 {
+    display: none; 
+  }
+  
+  div#wall div.parent #tag-5.slick {
+    display: none; 
+  }
+  
+  body div#wall div.parent div:last-child div#tag-6 {
+    display: none; 
+  }
+  
+  body div#wall div.parent div:first-child > div#tag-7.slick {
+    display: none;
+  }
