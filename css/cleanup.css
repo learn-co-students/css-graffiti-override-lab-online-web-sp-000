@@ -12,11 +12,7 @@
 }
 
 
-/*#wall *.parent {
-  display: none;
-}*/
-
-#wall .parent #tag-4 {
+#wall div.parent div#tag-4 {
   display: none;
 }
 
@@ -24,16 +20,10 @@
   display: none;
 }
 
-/*#wall div.parent div:last-child div#tag-6 {
+#wall div.parent:last-child {
   display: none;
 }
 
-
-
-/*#wall div.parent div:last-child div#tag-6 {
+#wall div.parent div:nth-child(2) {
   display: none;
 }
-
-#wall div.parent div > #tag-7.slick {
-  display: none;
-}*/
