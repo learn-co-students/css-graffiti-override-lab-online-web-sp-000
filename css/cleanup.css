@@ -1,18 +1,28 @@
+
 #wall .tag-1 {
     display: none;
   }
 
-
-
-body div .tag-2{
+html body div#wall #tag-2{
     display:none;
 }
 
-  div[tag-3="slick wicked"]{
+html body div#wall #tag-3.slick{
+    display:none;
+}
+
+  html body div#wall div.parent #tag-4{
       display:none;
   }
 
+  html body div#wall div.parent #tag-5.slick{
+      display:none;
+  }
 
-  
-html body .parent #wall #tag-4{
-    display: none;}
+  body div#wall div.parent div:last-child div#tag-6 {
+    display: none;
+  }
+
+  html body div#wall div.parent div > #tag-7.slick {
+    display: none;
+  }
