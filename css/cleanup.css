@@ -1,1 +1,39 @@
 /* write your override styles here */
+#wall div.tag-1{
+    display: none
+}
+
+#wall div#tag-2{
+    top: 300px;
+    border-color: green;
+    display: none;
+}
+#wall div#tag-3.slick.wicked{
+    top: -100px;
+    left: 350px;
+    display: none;
+    
+}
+
+#wall div.parent div#tag-4{
+    left: 100px;
+    display: none;
+}
+
+div#wall div.parent > div#tag-5.slick{
+    top: 200px;
+    left: 100px;
+    display: none;
+}
+
+body div#wall div.parent div:last-child div#tag-6{
+    left: 200px;
+    display: none;
+
+}
+
+body div#wall div.parent > div > div#tag-7.slick {
+    left: 100px;
+    top: -100px;
+    display: none;
+}
