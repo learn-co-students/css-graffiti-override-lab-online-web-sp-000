@@ -1,1 +1,24 @@
 /* write your override styles here */
+
+/* done */
+#wall .tag-1 {
+    display: none;
+}
+
+/* right downward arrow */
+#wall #tag-2 {
+    display: none;
+}
+
+#wall #tag-3 class[type="slick wicked"] {
+    display: none;
+}
+
+/* done */
+#wall .parent #tag-4 {
+    display: none;
+}
+
+#wall .parent #tag-5 .slick {
+    display: none;
+}
