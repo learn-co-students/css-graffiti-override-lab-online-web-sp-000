@@ -6,11 +6,12 @@
 }
 
 /* right downward arrow */
-#wall #tag-2 {
+#wall div#tag-2 {
     display: none;
 }
 
-#wall #tag-3 class[type="slick wicked"] {
+/* done */
+div#wall #tag-3.slick.wicked {
     display: none;
 }
 
@@ -19,6 +20,6 @@
     display: none;
 }
 
-#wall .parent #tag-5 .slick {
+div#wall div.parent #tag-5.slick {
     display: none;
 }
