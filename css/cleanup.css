@@ -1,1 +1,24 @@
 /* write your override styles here */
+
+#wall div {
+  display: none;
+}
+
+#wall div.tag-1  {
+  display: none;
+}
+
+#wall div#tag-2 {
+  display: none;
+}
+
+div#wall div#tag-3.slick.wicked {
+  display: none;
+}
+
+#wall div.parent {
+  display: none;
+}
+
+/* hear me now, this is my comment about the css that I have supplied here for all to read and use.  thank you for the great opportunity 
+  and I hope you all have a good night */
