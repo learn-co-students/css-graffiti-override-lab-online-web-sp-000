@@ -1,1 +1,15 @@
 /* write your override styles here */
+div#wall .tag-1, 
+div#wall div#tag-2, 
+div#wall #tag-3.slick.wicked,
+#wall div.parent #tag-4, 
+div#wall div.parent div#tag-5.slick, 
+html body div#wall div.parent:nth-of-type(3) div:last-of-type div#tag-6,
+body div#wall div.parent:last-of-type div > #tag-7.slick {
+    display: none;
+}
+
+/* why is #6 so difficult???!!!! 
+i got the speicificty to be 236 which is greater than the original, which is only 224, but it doesnt work ?!
+div#wall div.parent div:last-child div#tag-6
+*/
