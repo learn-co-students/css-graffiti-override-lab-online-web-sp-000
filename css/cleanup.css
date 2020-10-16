@@ -1,1 +1,33 @@
 /* write your override styles here */
+
+#wall .tag-1 {
+    display: none;
+}
+
+#wall #tag-2:not(#tag-3) {
+    display: none;
+}
+
+#wall #tag-3:not(#tag-2) {
+    display: none;
+}
+
+/* I can't believe you guys are gonna make me get rid of noodle */
+
+#wall > .parent #tag-4 {
+    display: none;
+}
+
+div#wall .parent div#tag-5.slick {
+    display: none;
+}
+
+div#wall div.parent div:last-child div#tag-6:not(#tag-1) {
+    display: none;
+}
+
+/* also, this doesn't end up uncovering a mural lol, just a blank wall */
+
+body div#wall div.parent div > #tag-7.slick:not(#tag-1) {
+    display: none;
+}
